@@ -1,0 +1,131 @@
+/*
+Theme Name: Pauline Portfolio
+Theme URI: http://www.cryoutcreations.eu/wordpress-themes/bravada
+Description: Astra Child, thème enfant du thème d'origine Astra
+Author: Cryout Creations
+Author URI: http://www.cryoutcreations.eu
+Template: astra
+Version: 1.0.8
+Requires at least: 4.5
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: portfolio, developpeur web
+Text Domain: astra
+*/
+
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url('assets/fonts/JosefinSans-Bold.ttf') format('truetype'),
+		 url('assets/fonts/JosefinSans-Light.ttf') format('truetype'),
+		 url('assets/fonts/JosefinSans-Medium.ttf') format('truetype'),
+		 url('assets/fonts/JosefinSans-Regular.ttf') format('truetype'),
+		 url('assets/fonts/JosefinSans-Thin.ttf') format('truetype');
+}
+
+/* ACCUEIL */
+
+/* Effet de survol des liens du menu */
+#ast-hf-menu-1 a:hover{
+	color: #49AEDB;
+}
+
+/* Effet au survol des images du portfolio */
+/* #projet_planty:hover{
+} */
+
+
+/* ACCUEIL GEEK */
+
+/* Bouton "selection personnage" */
+#select-perso{
+	cursor: pointer;
+}
+
+/* Sections cachées */
+#avatar,
+#equipements,
+#competences,
+#legend-avatar{
+	opacity: 0;
+}
+
+/* #identite-perso{
+	z-index: -1;
+	opacity: 0;
+} */
+
+#avatar.active{
+	opacity: 1;
+	transition-duration: 3s;
+}
+
+#identite-perso.active{
+	z-index: -1;
+	opacity: 1;
+}
+
+#equipements.active{
+	opacity: 1;
+	transition-delay: 600ms;
+	transition-duration: 5s;
+}
+
+#competences.active{
+	opacity: 1;
+	transition-delay: 1200ms;
+	transition-duration: 5s;
+}
+
+#legend-avatar.active{
+	opacity: 1;
+	transition-duration: 3s;
+}
+
+/* Apparition section histoire au scroll */
+#histoire{
+	opacity: 0;
+	transform: translateX(0);
+}
+
+#histoire.active{
+	opacity:1;
+	transform: translateX(0);
+	transition: 4s;
+}
+
+/* Formulaire de contact */
+
+#formulaire-contact {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+}
+
+textarea{
+	line-height: 1.57em;
+	border: solid 1px #648C9C;
+}
+
+
+input[type=submit]{
+	background-color: white;
+	color: #648C9C;
+}
+
+input[type=submit]:hover{
+	background-color: white;
+	color: #648C9C;
+}
+
+form p{
+	font-family: 'josefin sans';
+	font-size: 20px;
+}
+
+.rang-form p{
+	color: white;
+}
+
