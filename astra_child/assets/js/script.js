@@ -1,3 +1,25 @@
+// ACCUEIL PRINCIPALE
+// ANIMATION BACKGROUND DE TEXTE
+
+// const background = document.getElementById('autotext');
+// const text = "ecrire mon texte";
+
+// let index = 0;
+// const randomSpeed = (min, max) => {
+//     return Math.floor(Math.random() * (max - min) + min);
+// }
+
+// const play = () => {
+//     background.innerHTML = text.slice(0, index)
+//     index++;
+
+//     clearInterval(timer);
+//     timer = setInterval(play, randomSpeed(50, 300))
+// };
+
+// let timer = setInterval(play, 300)
+
+// ACCUEIL GEEK
 // EVENEMENT AU CLIC : BOUTON DETAIL PERSONNAGE
 
 const buttonPerso = document.querySelector('#select-perso');

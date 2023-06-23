@@ -24,17 +24,62 @@ Text Domain: astra
 		 url('assets/fonts/JosefinSans-Thin.ttf') format('truetype');
 }
 
-/* ACCUEIL */
+/* ACCUEIL PRINCIPALE*/
 
 /* Effet de survol des liens du menu */
 #ast-hf-menu-1 a:hover{
-	color: #49AEDB;
+	color: #C18F89;
 }
 
-/* Effet au survol des images du portfolio */
-/* #projet_planty:hover{
+/* Effet de texte section à propos */
+/* #autotext{
+	border-right: 0.15em solid #ff79c6;
+	letter-spacing: 0.05em;
+	animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+	from,
+	to{
+		border-color: transparent;
+	}
+	50%{
+		border-color: #ff79c6;
+	}
 } */
 
+/* Formulaire de contact */
+#formulaire-contact {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+}
+
+textarea{
+	line-height: 1.57em;
+	border: solid 1px #648C9C;
+}
+
+
+input[type=submit]{
+	background-color: white;
+	color: #C18F89;
+}
+
+input[type=submit]:hover{
+	background-color: white;
+	color: #C18F89;
+}
+
+form p{
+	font-family: 'josefin sans';
+	font-size: 20px;
+}
+
+.rang-form p{
+	color: white;
+}
 
 /* ACCUEIL GEEK */
 
@@ -94,38 +139,3 @@ Text Domain: astra
 	transform: translateX(0);
 	transition: 4s;
 }
-
-/* Formulaire de contact */
-
-#formulaire-contact {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 50px;
-}
-
-textarea{
-	line-height: 1.57em;
-	border: solid 1px #648C9C;
-}
-
-
-input[type=submit]{
-	background-color: white;
-	color: #648C9C;
-}
-
-input[type=submit]:hover{
-	background-color: white;
-	color: #648C9C;
-}
-
-form p{
-	font-family: 'josefin sans';
-	font-size: 20px;
-}
-
-.rang-form p{
-	color: white;
-}
-
