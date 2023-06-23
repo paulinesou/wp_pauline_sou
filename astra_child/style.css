@@ -70,23 +70,6 @@ Text Domain: astra
 	color: #C18F89;
 }
 
-/* Effet de texte section à propos */
-/* #autotext{
-	border-right: 0.15em solid #ff79c6;
-	letter-spacing: 0.05em;
-	animation: blink 0.75s step-end infinite;
-}
-
-@keyframes blink {
-	from,
-	to{
-		border-color: transparent;
-	}
-	50%{
-		border-color: #ff79c6;
-	}
-} */
-
 /* Formulaire de contact */
 #formulaire-contact {
 	display: flex;
@@ -122,6 +105,11 @@ form p{
 
 /* ACCUEIL GEEK */
 
+/* Bouton "decouvrez mon univers */
+#univers:hover{
+	font-style: italic;
+}
+
 /* Bouton "selection personnage" */
 #select-perso{
 	cursor: pointer;
@@ -135,18 +123,17 @@ form p{
 	opacity: 0;
 }
 
-/* #identite-perso{
-	z-index: -1;
+#identite-perso{
 	opacity: 0;
-} */
+}
 
 #avatar.active{
 	opacity: 1;
 	transition-duration: 3s;
+	z-index: 9999;
 }
 
 #identite-perso.active{
-	z-index: -1;
 	opacity: 1;
 }
 
