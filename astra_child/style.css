@@ -167,4 +167,8 @@ form p{
 		flex-direction: column;
 		align-items: center;
 	}
+
+	.particles-js-canvas-el{
+		display: none;
+	}
 } 
