@@ -6,14 +6,12 @@
 
 const buttonPerso = document.querySelector('#select-perso');
 const avatar = document.querySelector('#avatar');
-const identite = document.querySelector('#identite-perso');
 const equipement = document.querySelector('#equipements');
 const competence = document.querySelector('#competences');
 const legende = document.querySelector('#legend-avatar');
 
 buttonPerso.addEventListener('click', () => {
 	avatar.classList.add('active')
-	identite.classList.add('active')
 	equipement.classList.add('active')
 	competence.classList.add('active')
 	legende.classList.add('active')

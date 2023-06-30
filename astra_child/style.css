@@ -103,6 +103,10 @@ form p{
 	color: white;
 }
 
+.wpcf7-response-output{
+	color: white;
+}
+
 /* ACCUEIL GEEK */
 
 /* Bouton "decouvrez mon univers */
@@ -119,19 +123,14 @@ form p{
 #avatar,
 #equipements,
 #competences,
-#legend-avatar,
-#identite-perso{
+#legend-avatar
+{
 	opacity: 0;
 }
 
 #avatar.active{
 	opacity: 1;
 	transition-duration: 4s;
-}
-
-#identite-perso.active{
-	opacity: 1;
-	z-index: -1;
 }
 
 #equipements.active{
