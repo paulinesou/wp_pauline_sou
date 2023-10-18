@@ -37,8 +37,8 @@ Text Domain: astra
 
 /* style du titre partie classique */
 .part-5 {
-	color: #E35B83;
-	text-shadow:
+	color: #B17569;
+	/* text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px #fff,
@@ -46,12 +46,12 @@ Text Domain: astra
     0 0 80px #0ff,
     0 0 90px #0ff,
     0 0 100px #0ff,
-    0 0 150px #0ff;
+    0 0 150px #0ff; */
 }
   
 .part-6 {
-	color: #7A4A70;
-	text-shadow:
+	color: #C18F89;
+	/* text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px #fff,
@@ -59,12 +59,12 @@ Text Domain: astra
     0 0 80px #0ff,
     0 0 90px #0ff,
     0 0 100px #0ff,
-    0 0 150px #0ff;
+    0 0 150px #0ff; */
 }
   
 .part-7 {
-	color: #36A1FF;
-	text-shadow:
+	color: #ACCFCB;
+	/* text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px #fff,
@@ -72,12 +72,12 @@ Text Domain: astra
     0 0 80px #0ff,
     0 0 90px #0ff,
     0 0 100px #0ff,
-    0 0 150px #0ff;
+    0 0 150px #0ff; */
 }
   
 .part-8 {
-	color: #035495;
-	text-shadow:
+	color: #3D8DAE;
+	/* text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px #fff,
@@ -85,7 +85,7 @@ Text Domain: astra
     0 0 80px #0ff,
     0 0 90px #0ff,
     0 0 100px #0ff,
-    0 0 150px #0ff;
+    0 0 150px #0ff; */
 }
 
 /* animation du titre partie geek */
