@@ -37,23 +37,59 @@ Text Domain: astra
 
 /* style du titre partie classique */
 .part-5 {
-	color: #B17569;
+	color: #E35B83;
+	text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
 }
   
 .part-6 {
-	color: #C18F89;
+	color: #7A4A70;
+	text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
 }
   
 .part-7 {
-	color: #ACCFCB;
+	color: #36A1FF;
+	text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
 }
   
 .part-8 {
-	color: #3D8DAE;
+	color: #035495;
+	text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
 }
 
 /* animation du titre partie geek */
-.animation-geek-principal {
+/* .animation-geek-principal {
 	animation: 7s anim-flipX ease;
 	animation-fill-mode: forwards;
 }
@@ -67,7 +103,7 @@ Text Domain: astra
 	  opacity: 1;
 	  transform: rotateX(180deg);
 	}
-}
+} */
 
 
 /* ACCUEIL STANDART*/
@@ -159,5 +195,25 @@ form p{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.home #ast-mobile-header{
+		display: none;
+	}
+
+	.animation-geek-principal {
+		animation: none;
+	}
+
+	#title-geek-principal .elementor-widget-container{
+		transform: rotate(0deg);
+	}
+
+	#description-geek-principal .elementor-widget-container{
+		transform: rotate(0deg);
+	}
+
+	#btn-geek-principal .elementor-widget-container{
+		transform: rotate(0deg);
 	}
 }
